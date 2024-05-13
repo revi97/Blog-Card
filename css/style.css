@@ -6,12 +6,44 @@ body {
     "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
     sans-serif;
   min-height: 100vh;
+  background-image: linear-gradient(to right,#F9FAFB, #D2D6DB);
 }
 
 * {
   box-sizing: border-box;
 }
 
+.main-body{
+  display: flex; 
+  justify-content: center
+}
+.content{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.blog-card{
+  background-color: #ffffff;
+  margin-top: 120px;
+  width: 340px;
+  height: fit-content;
+  align-items: center;
+border-radius: 10px;
+
+}
+.card-image{
+  object-fit: cover;
+  width: 340px;
+}
+.title{
+  color: #15803D;
+  background-color: #BBF7D0;
+  border-radius: 3px;
+}
+.read-link{
+  text-decoration: none;
+  color: #4338CA;
+}
 .credits {
   color: #777;
   position: fixed;
