@@ -34,17 +34,23 @@ body {
   flex-direction: column;
 
 }
-
+p{
+  font-size: 1rem;
+}
+h3{
+  font-size: 1.125rem;
+}
 .card-image {
   object-fit: cover;
   width: 340px;
 }
 
+
 .title>span {
   color: #15803D;
   background-color: #F0FDF4;
-  border-radius: 3px;
-  padding: 5px;
+  border-radius: 15px;
+  padding: 8px;
 }
 
 .read-link {
